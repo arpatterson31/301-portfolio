@@ -90,7 +90,7 @@ class App extends Component {
             />}>
           </Route>
           <Route 
-            path="/about" 
+            exact path="/about" 
             element={<About
               resumeBasicInfo={this.state.resumeData.basic_info}
               sharedBasicInfo={this.state.sharedData.basic_info}
